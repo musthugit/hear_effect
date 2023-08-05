@@ -538,8 +538,24 @@ video {
   display: flex;
 }
 
+.h-9 {
+  height: 2.25rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
 .items-center {
   align-items: center;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .bg-red-900 {
@@ -570,6 +586,11 @@ video {
 .bg-orange-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 237 213 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
 .text-3xl {
